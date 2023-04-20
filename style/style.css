@@ -1,5 +1,5 @@
 :root {
-  --margin-high: 2.5rem;
+  --margin-high: 2.5rem 0;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 .font {
   font-size: 18px;
-  font-family: sans-serif;
+  font-family: "Fredoka", sans-serif;
 }
 /******************REUSABLE******************/
 .margin {
@@ -48,9 +48,14 @@ h1 {
 }
 img {
   height: 100px;
-  float: left;
 }
 a {
   text-decoration: none;
   color: rgb(96, 192, 237);
+}
+.column > * {
+  float: left;
+}
+.column > div {
+  padding: 12px 7px;
 }
