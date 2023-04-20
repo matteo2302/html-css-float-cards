@@ -8,7 +8,7 @@
   padding: 0;
 }
 .container {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: auto;
 }
 .font {
@@ -26,4 +26,27 @@ h1 {
   font-size: 40px;
   font-weight: 900;
   color: rgb(229, 49, 112);
+}
+/*********************main cards*************/
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.column {
+  width: calc(100% / 3 - 30px);
+  background-color: black;
+  margin: 10px;
+  float: left;
+  color: white;
+}
+.card {
+  float: left;
+}
+img {
+  height: 100px;
+  float: left;
+}
+a {
+  text-decoration: none;
 }
