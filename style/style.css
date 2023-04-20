@@ -1,5 +1,29 @@
+:root {
+  --margin-high: 2.5rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+.font {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+}
+/******************REUSABLE******************/
+.margin {
+  margin: var(--margin-high);
+}
+/********************header******************/
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(229, 49, 112);
 }
